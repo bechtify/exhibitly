@@ -347,7 +347,7 @@ p {
 @media (max-width: 420px) {
     .downArrow{
         position: absolute;
-        bottom: 37%;
+        bottom: 27%;
         margin-left: 45%;
     }
     .col-lg-12{
