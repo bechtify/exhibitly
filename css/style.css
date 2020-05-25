@@ -266,6 +266,13 @@ p {
     line-height: 1.9;
 }
 
+.downArrow{
+    position: absolute;
+    bottom: 5%;
+    margin-left: 49%;
+    z-index: 2;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1310px;
@@ -282,6 +289,11 @@ p {
     }
     .tm-video-text-overlay {
         left: 60%;
+    }
+    .downArrow{
+        position: absolute;
+        bottom: 47%;
+        margin-left: 49%;
     }
 }
 
@@ -306,6 +318,40 @@ p {
     .tm-timeline-item {
         margin-left: 25px;
     }
+    .downArrow{
+        position: absolute;
+        bottom: 25%;
+        margin-left: 49%;
+    }
+}
+
+@media (max-width: 800px) {
+    .downArrow{
+        position: absolute;
+        bottom: 46%;
+        margin-left: 49%;
+    }
+}
+@media (max-width: 420px) {
+    .downArrow{
+        position: absolute;
+        bottom: 23%;
+        margin-left: 45%;
+    }
+}
+@media (max-width: 380px) {
+    .downArrow{
+        position: absolute;
+        bottom: 31.5%;
+        margin-left: 45%;
+    }
+}
+@media (max-width: 330px) {
+    .downArrow{
+        position: absolute;
+        bottom: 25%;
+        margin-left: 45%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -323,6 +369,7 @@ p {
     .tm-video-text-overlay {
         left: 25%;
     }
+
 }
 
 @media (max-width: 584px) {
@@ -337,6 +384,7 @@ p {
         margin-left: auto;
         margin-right: auto;
     }
+
 }
 
 @media (max-width: 575px) {
@@ -360,13 +408,10 @@ p {
         min-width: auto;
         max-width: 125%;
     }
+
 }
 
-.downArrow{
-    position: absolute;
-    bottom: 5%;
-    margin-left: 49%;
-}
+
 .bounce {
     -moz-animation: bounce 3s infinite;
     -webkit-animation: bounce 3s infinite;
